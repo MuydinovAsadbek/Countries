@@ -105,7 +105,6 @@ img {
   background-position:  left center;
 }
 
-
 .main-content {
   padding-top: 24px;
   background-color: var(--main-content-bg);
@@ -232,19 +231,16 @@ img {
 }
 
 
-
 /* PAGE MORE */
 .main-page-more {
   padding-top: 80px;
   padding-bottom: 343px;
 }
 
-.site-main {
-}
-
 .back-link-block {
   padding-bottom: 80px;
 }
+
 .back-link {
   display: inline-block;
   padding: 10px 32px;
@@ -266,16 +262,19 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
 .flag-img {
   display: block;
   width: 560px;
   height: 401px;
   border-radius: 5px;
 }
+
 .text-info-wrapper {
   display: flex;
   justify-content: space-between;
 }
+
 .more-info-heading {
   display: inline-block;
   margin: 0;
@@ -285,19 +284,15 @@ img {
   line-height: 44px;
   color: var(--primary);
 }
+
 .more-info-text-block-left {
   margin-right: 141px;
-}
-.about-states-text {
-}
-.info {
-}
-.more-info-text-block-right {
 }
 
 .more-info-bottom-block {
   padding-top: 70px;
 }
+
 .bottom-block-heading {
   display: inline-block;
   margin: 0;
@@ -307,6 +302,7 @@ img {
   line-height: 24px;
   color: var(--primary);
 }
+
 .bottom-block-link {
   display: inline-block;
   width: 96px;
