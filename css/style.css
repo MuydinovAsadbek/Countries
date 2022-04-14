@@ -27,7 +27,7 @@
 
 /* GLOBAL FOCUS */
 *:focus {
-  outline: 3px dashed var(--hover-color);
+  outline: 3px dashed var(--primary);
   outline-offset: 3px;
   transition: 0.4s ease;
 }
@@ -82,6 +82,7 @@ img {
 .site-header-heading {
   display: inline-block;
   margin: 0;
+  margin-right: 25px;
   flex-shrink: 0;
   font-size: 24px;
   font-weight: 800;
@@ -165,7 +166,6 @@ img {
 
 .about-states {
   padding-top: 24px;
-
 }
 
 .about-states-list {
@@ -201,6 +201,7 @@ img {
 }
 
 .about-states-link {
+  display: inline-block;
   margin: 0;
   margin-bottom: 16px;
   display: inline-block;
@@ -214,7 +215,7 @@ img {
 .about-states-text {
   margin: 0;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 16px;
   color: var(--primary);
 }
@@ -225,7 +226,111 @@ img {
 
 .info {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 16px;
-  color: var(--card-text);
+  color: var(--primary);
+}
+
+
+
+/* PAGE MORE */
+.main-page-more {
+  padding-top: 80px;
+  padding-bottom: 343px;
+}
+
+.site-main {
+}
+
+.back-link-block {
+  padding-bottom: 80px;
+}
+.back-link {
+  display: inline-block;
+  padding: 10px 32px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.293139);
+  border-radius: 6px;
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.back-link-text {
+  margin-left: 11px;
+}
+
+.warapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flag-img {
+  display: block;
+  width: 560px;
+  height: 401px;
+  border-radius: 5px;
+}
+.text-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.more-info-heading {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 23px;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 44px;
+  color: var(--primary);
+}
+.more-info-text-block-left {
+  margin-right: 141px;
+}
+.about-states-text {
+}
+.info {
+}
+.more-info-text-block-right {
+}
+
+.more-info-bottom-block {
+  padding-top: 70px;
+}
+.bottom-block-heading {
+  display: inline-block;
+  margin: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary);
+}
+.bottom-block-link {
+  display: inline-block;
+  width: 96px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.104931);
+  border-radius: 2px;
+  color: var(--primary);
+}
+
+.bottom-block-link-1 {
+  padding: 5px 28px;
+}
+
+.bottom-block-link-2 {
+  padding: 5px 20px;
+}
+
+.bottom-block-link-3 {
+  padding: 5px 10px;
+}
+
+.bottom-block-link:not(:last-child) {
+  margin-right: 10px;
 }
