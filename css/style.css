@@ -92,7 +92,8 @@ img {
 
 .button {
   flex-shrink: 0;
-  padding-left: 27px;
+  display: flex;
+  text-align: center;
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
@@ -100,10 +101,11 @@ img {
   color: var(--primary);
   background-color: initial;
   font-weight: 600;
-  background-image: url("../img/month.svg");
-  background-repeat: no-repeat;
-  background-position:  left center;
   cursor: pointer;
+}
+
+.dark-mode-button-text {
+  margin-left: 11px;
 }
 
 .main-content {
@@ -193,7 +195,7 @@ img {
   display: block;
   width: 264px;
   height: 160px;
-  border-radius: 5px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .item-block {
@@ -268,6 +270,7 @@ img {
   display: block;
   width: 560px;
   height: 401px;
+  margin-right: 25px;
   border-radius: 5px;
 }
 
