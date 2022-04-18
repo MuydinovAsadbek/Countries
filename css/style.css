@@ -103,6 +103,7 @@ img {
   background-image: url("../img/month.svg");
   background-repeat: no-repeat;
   background-position:  left center;
+  cursor: pointer;
 }
 
 .main-content {
